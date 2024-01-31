@@ -1,0 +1,54 @@
+h3 {
+  margin: 0;
+}
+hr {
+  margin: 16px -16px;
+}
+button {
+  margin-left: 16px;
+  padding: 8px 16px;
+  border: 1px solid darkcyan;
+  background-color: lightcyan;
+  cursor: pointer;
+  color: darkblue;
+}
+button:hover {
+  background-color: cyan;
+}
+button[disabled] {
+  background-color: grey;
+  cursor: not-allowed;
+  border: 1px solid grey;
+  color: lightgray;
+}
+select {
+  padding: 8px 16px;
+  border: 1px solid darkcyan;
+}
+.customDiv {
+  width: 400px;
+  height: 250px;
+  border: 1px solid grey;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 16px;
+}
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+li {
+  border-bottom: 1px solid maroon;
+  padding: 16px 0;
+}
+.deleteBtn {
+  border: 1px solid darkred;
+  color: darkred;
+  background-color: lightsalmon;
+}
+.deleteBtn:hover {
+  background-color: red;
+}
